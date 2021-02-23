@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e98a30b371d9f470e917ab7871cdd163",
+    "revision": "54025f9148c174c45e8122083cd531ed",
     "url": "/vijaymathur948.github.io/myCssClasses/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vijaymathur948.github.io/myCssClasses/static/css/2.ff645aaf.chunk.css"
   },
   {
-    "revision": "5515004b716f0f96aa77",
+    "revision": "88e05d02dd921c0c9c95",
     "url": "/vijaymathur948.github.io/myCssClasses/static/css/main.1d641934.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vijaymathur948.github.io/myCssClasses/static/js/2.7ea6bc0b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5515004b716f0f96aa77",
-    "url": "/vijaymathur948.github.io/myCssClasses/static/js/main.aa4e7b29.chunk.js"
+    "revision": "88e05d02dd921c0c9c95",
+    "url": "/vijaymathur948.github.io/myCssClasses/static/js/main.9e3954bf.chunk.js"
   },
   {
     "revision": "ceb39284f4d63cd2e3b5",
