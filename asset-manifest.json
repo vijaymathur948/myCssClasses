@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/vijaymathur948.github.io/myCssClasses/static/css/main.1d641934.chunk.css",
-    "main.js": "/vijaymathur948.github.io/myCssClasses/static/js/main.9e3954bf.chunk.js",
-    "main.js.map": "/vijaymathur948.github.io/myCssClasses/static/js/main.9e3954bf.chunk.js.map",
-    "runtime-main.js": "/vijaymathur948.github.io/myCssClasses/static/js/runtime-main.ce6eb8a4.js",
-    "runtime-main.js.map": "/vijaymathur948.github.io/myCssClasses/static/js/runtime-main.ce6eb8a4.js.map",
-    "static/css/2.ff645aaf.chunk.css": "/vijaymathur948.github.io/myCssClasses/static/css/2.ff645aaf.chunk.css",
-    "static/js/2.7ea6bc0b.chunk.js": "/vijaymathur948.github.io/myCssClasses/static/js/2.7ea6bc0b.chunk.js",
-    "static/js/2.7ea6bc0b.chunk.js.map": "/vijaymathur948.github.io/myCssClasses/static/js/2.7ea6bc0b.chunk.js.map",
-    "index.html": "/vijaymathur948.github.io/myCssClasses/index.html",
-    "precache-manifest.03b2e39ce4e2f2c88c09b8bbc8b35238.js": "/vijaymathur948.github.io/myCssClasses/precache-manifest.03b2e39ce4e2f2c88c09b8bbc8b35238.js",
-    "service-worker.js": "/vijaymathur948.github.io/myCssClasses/service-worker.js",
-    "static/css/2.ff645aaf.chunk.css.map": "/vijaymathur948.github.io/myCssClasses/static/css/2.ff645aaf.chunk.css.map",
-    "static/css/main.1d641934.chunk.css.map": "/vijaymathur948.github.io/myCssClasses/static/css/main.1d641934.chunk.css.map",
-    "static/js/2.7ea6bc0b.chunk.js.LICENSE.txt": "/vijaymathur948.github.io/myCssClasses/static/js/2.7ea6bc0b.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/vijaymathur948.github.io/myCssClasses/static/media/logo.5d5d9eef.svg"
+    "main.css": "/static/css/main.1d641934.chunk.css",
+    "main.js": "/static/js/main.17ff4b27.chunk.js",
+    "main.js.map": "/static/js/main.17ff4b27.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6fc7d1c4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6fc7d1c4.js.map",
+    "static/css/2.ff645aaf.chunk.css": "/static/css/2.ff645aaf.chunk.css",
+    "static/js/2.7ea6bc0b.chunk.js": "/static/js/2.7ea6bc0b.chunk.js",
+    "static/js/2.7ea6bc0b.chunk.js.map": "/static/js/2.7ea6bc0b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1fa12f3d26a46c63230ee6728c59af0b.js": "/precache-manifest.1fa12f3d26a46c63230ee6728c59af0b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.ff645aaf.chunk.css.map": "/static/css/2.ff645aaf.chunk.css.map",
+    "static/css/main.1d641934.chunk.css.map": "/static/css/main.1d641934.chunk.css.map",
+    "static/js/2.7ea6bc0b.chunk.js.LICENSE.txt": "/static/js/2.7ea6bc0b.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ce6eb8a4.js",
+    "static/js/runtime-main.6fc7d1c4.js",
     "static/css/2.ff645aaf.chunk.css",
     "static/js/2.7ea6bc0b.chunk.js",
     "static/css/main.1d641934.chunk.css",
-    "static/js/main.9e3954bf.chunk.js"
+    "static/js/main.17ff4b27.chunk.js"
   ]
 }
