@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+.tab {
+  background-color: #aaa;
+  float: left;
+  width: 50%;
+  height: 300px;
+  font-size: 25px;
+  border-right: 10px solid white;
+  margin-bottom: 10px;
+}
+.tabs {
+  display: flex;
+  overflow: scroll;
+}
+.tabs ::after {
+  content: "";
+  display: table;
+  clear: both;
+}

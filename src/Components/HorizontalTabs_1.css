@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+.tab {
+  background-color: #aaa;
+  float: left;
+  width: 33.3%;
+  height: 300px;
+  font-size: 25px;
+  border-right: 10px solid white;
+  margin-bottom: 10px;
+}
+.tabs ::after {
+  content: "";
+  display: table;
+  clear: both;
+}
