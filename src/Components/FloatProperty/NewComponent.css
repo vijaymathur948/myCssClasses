@@ -39,6 +39,7 @@ body {
 @media (max-width: 800px) {
   .columns {
     width: 49%;
+    height: 100px;
   }
 }
 @media (max-width: 500px) {

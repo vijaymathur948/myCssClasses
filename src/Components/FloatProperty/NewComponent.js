@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react"
 import { connect } from "react-redux"
-import { startAction } from "../actions/startAction"
-import { stopAction } from "../actions/stopAction"
-import { rotateAction } from "../actions/rotateAction"
+import { startAction } from "../../actions/startAction"
+import { stopAction } from "../../actions/stopAction"
+import { rotateAction } from "../../actions/rotateAction"
 
 import { Row, Col, Form } from "react-bootstrap"
 import "./NewComponent.css"
@@ -18,6 +18,7 @@ const mapDispatchToProps = dispatch => {
     rotateAction: payload => dispatch(rotateAction(payload)),
   }
 }
+
 const NewComponent = props => {
   const extract = (length, groupingvalue) => {
     if (length < 1 || groupingvalue < 1) return []
@@ -62,6 +63,7 @@ const NewComponent = props => {
         " minutes " +
         dateTimeObj.getSeconds() +
         " seconds "
+
       document.onmousemove = e => {
         document.getElementById(
           "mouse"
@@ -69,11 +71,12 @@ const NewComponent = props => {
       }
     }, 1000)
   }, [])
+
   return (
     <div>
       <div className='header'>
-        <h2 id='date' />
-        <h2 id='mouse' />
+        <h2 id='date'></h2>
+        <h2 id='mouse'></h2>
 
         <Row>
           <Form>

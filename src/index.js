@@ -8,9 +8,11 @@ import configureStore from "./store/store"
 import "bootstrap/dist/css/bootstrap.min.css"
 
 ReactDOM.render(
-  <Provider store={configureStore()}>
-    <App />
-  </Provider>,
+  <React.StrictMode>
+    <Provider store={configureStore()}>
+      <App />
+    </Provider>
+  </React.StrictMode>,
   document.getElementById("root")
 )
 
