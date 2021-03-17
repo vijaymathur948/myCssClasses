@@ -1,0 +1,43 @@
+.cssflex * {
+  box-sizing: border-box;
+}
+
+.cssflex body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Style the header */
+.cssflex .header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Container for flexboxes */
+.cssflex .row {
+  display: flex;
+  margin: 10px !important;
+}
+/* Create 3 equal columns that floats next each other */
+.cssflex .column {
+  width: 32%;
+  padding: 10px;
+  height: 100px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(0, 128, 17) !important;
+  border-radius: 1px;
+}
+.cssflex .column .side {
+  width: 25%;
+}
+.cssflex .column .middle {
+  width: 50%;
+}
+
+/* Style the footer */
+.cssflex .footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}

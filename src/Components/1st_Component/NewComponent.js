@@ -73,10 +73,10 @@ const NewComponent = props => {
   }, [])
 
   return (
-    <div>
+    <div className='newComponent' style={{ backgroundColor: size }}>
       <div className='header'>
-        <h2 id='date'></h2>
-        <h2 id='mouse'></h2>
+        <h2 id='date' />
+        <h2 id='mouse' />
 
         <Row>
           <Form>

@@ -3,7 +3,7 @@ import "./HorizontalTabs_1.css"
 
 const Tabs = props => {
   return (
-    <div>
+    <div className='horizontalTabs_1'>
       <div className='tabs'>
         <div className='tab'>Tab 1</div>
         <div className='tab'>Tab 2</div>

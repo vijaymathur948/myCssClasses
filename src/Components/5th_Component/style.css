@@ -1,0 +1,35 @@
+.cssfloat * {
+  box-sizing: border-box;
+}
+
+.cssfloat body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Style the header */
+.cssfloat .header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Create 3 equal columns that floats next each other */
+.cssfloat .column {
+  float: left;
+  width: 32%;
+  padding: 10px;
+  height: 200px;
+  margin: 5px;
+}
+/* Clear floats property after the columns */
+.cssfloat .row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the footer */
+.cssfloat .footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}

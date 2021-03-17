@@ -7,7 +7,6 @@ import { stopAction } from "./actions/stopAction"
 import { rotateAction } from "./actions/rotateAction"
 import Components from "./Components/index"
 import { Tabs, Tab, Form } from "react-bootstrap"
-import all from "./Components"
 
 const mapStateToProps = state => {
   return { ...state }
@@ -21,7 +20,6 @@ const mapDispatchToProps = dispatch => {
 }
 
 function App(props) {
-  const [element, setElement] = useState("")
   const calculate = no => {
     if (no >= 11 && no <= 20) return String(no) + "th"
     if (no % 10 === 1) return String(no) + "st"
@@ -29,10 +27,12 @@ function App(props) {
     if (no % 10 === 3) return String(no) + "rd"
     return String(no) + "th"
   }
-  console.log()
   return (
     <div className='App'>
-      <Tabs defaultActiveKey={0} id='all_components'>
+      <Tabs
+        defaultActiveKey={Object.keys(Components).length - 1}
+        id='all_components'
+      >
         {Object.keys(Components).map((element, index_1) => {
           // return (
           //   <div key={index_1}>

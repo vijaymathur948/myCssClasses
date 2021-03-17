@@ -1,7 +1,7 @@
-* {
+.horizontalTabs * {
   box-sizing: border-box;
 }
-.tab {
+.horizontalTabs .tab {
   background-color: #aaa;
   float: left;
   width: 50%;
@@ -10,11 +10,11 @@
   border-right: 10px solid white;
   margin-bottom: 10px;
 }
-.tabs {
+.horizontalTabs .tabs {
   display: flex;
   overflow: scroll;
 }
-.tabs ::after {
+.horizontalTabs .tabs ::after {
   content: "";
   display: table;
   clear: both;
